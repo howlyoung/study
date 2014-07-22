@@ -1,0 +1,16 @@
+mysql5.7安装
+1.按照指引安装即可 使用mysql_install_db --user=mysql即可。
+2.安装好之后有可能无法进入数据库，进入my.cnf文件，在mysqld下增加skip-grant-tables,重启数据库即可无密码进入，修改密码后去掉这行，在重启。
+3.5.7安装后在/etc/init.d中有mysql.server来管理程序的启动和关闭。
+
+nginx1.4.1
+1.编译选项./configure --prefix=/usr/local/nginx
+2.中间可能会出现很多依赖包没安装，逐一安装。
+
+php5.5
+1.'./configure' '--prefix=/usr/local/php' '--with-mysql=/usr/local/mysql' '--with-pdo-mysql=/usr/local/mysql' '--with-mysqli=/usr/local/mysql/bin/mysql_config' '--enable-fpm' '--with-fpm-user=lscm' '--with-fpm-group=web' '--with-libxml-dir' '--with-zlib' '--with-curl' '--enable-exif' '--enable-ftp' '--with-gd' '--with-jpeg-dir' '--with-png-dir' '--with-freetype-dir' '--enable-gd-native-ttf' '--enable-mbstring' '--with-mcrypt' '--enable-opcache' '--enable-pcntl' '--with-openssl-dir' '--enable-soap' '--enable-sockets' '--enable-zip'
+2.安装各种依赖包。
+3.安装freetype6后可能还是会出现找不到freetype.h的情况，是编译时查找的路径问题，ln -sf /usr/include/freetype2 /usr/include/freetype2/freetype 做一个链接解决。
+
+
+使用php+nginx架构需要启动php-fpm
