@@ -17,3 +17,6 @@ setcookieº¯ÊýÓÐÁ½¸ö²ÎÊý¿ÉÒÔ¿ØÖÆcookie´æ·ÅµÄÂ·¾¶ºÍÓò£¬cookieÉèÖÃÔÚ¶¥¼¶ÓòÃûÊ±£¬Èç¹
 php5Ìá¹©·´ÉäÀà£¬¿ÉÒÔÓ³Éä³öÀàµÄÄÚ²¿½á¹û£¬Í¨³£×÷ÓÃÊÇ×÷Îª×Ô²éºÍµ÷ÓÃÒ»Ð©ÔËÐÐÊ±»¹²»Çå³þÄÚ²¿½á¹¹µÄÀà¡£
 
 call_user_func()  µ÷ÓÃÓÃ»§×Ô¼ºµÄ·½·¨£¬µÚÒ»¸ö²ÎÊýÊÇ·½·¨Ãû£¬ºóÃæ¸ú×Å²ÎÊýÁÐ±í£¬Èç¹ûÊÇµ÷ÓÃÀàµÄ·½·¨Ãû£¬²ÎÊýÁÐ±íÊ¹ÓÃÊý×é¡£
+
+phpÐ´Ê±¸´ÖÆ
+php¸´ÖÆ±äÁ¿µÄÊ±ºò£¬Ö»ÓÐÔÚÄÚÈÝ·¢Éú¸Ä±äµÄÊ±ºò£¬²Å»áÕæÕý½øÐÐ¸´ÖÆ²Ù×÷¡£Èç¹ûÄÚÈÝÃ»ÓÐ·¢Éú±ä»¯£¬ÔòÄ¿±ê±äÁ¿ºÍÔ´±äÁ¿Ö¸ÏòÍ¬Ò»¿éÄÚ´æµØÖ·£¬ÔÚÄÚÈÝ·¢Éú±ä»¯Ê±£¬zendÒýÇæ»á·ÖÅäÒ»¿éÄÚ´æ³öÀ´£¬½øÐÐÕæÕýµÄ¸´ÖÆ²Ù×÷¡£
