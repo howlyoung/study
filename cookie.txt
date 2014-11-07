@@ -1,0 +1,2 @@
+cookie在浏览器请求时一般是由服务器在响应报文头中告诉浏览器应该写入。php可以使用setcookie方法或者header方法将cookie写入响应头中。
+当浏览器再请求时，如果检查到有该域的cookie，就会将cookie放到请求头中提交。
